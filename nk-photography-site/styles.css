@@ -203,13 +203,15 @@ button:hover {
   padding: 40px;
   width: 100%;
   color: #ffffff;
-  .about-section-wrapper {
-    display: flex;
-    justify-content: space-evenly;
-    .about-desc {
-      max-width: 500px;
-    }
-  }
+}
+
+.about-section-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.about-desc {
+  max-width: 500px;
 }
 
 p {
