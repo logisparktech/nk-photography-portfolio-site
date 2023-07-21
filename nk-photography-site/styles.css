@@ -384,6 +384,19 @@ its picture*/
 .fill-in {
   margin: 0 auto;
   width: 25rem;
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+textarea {
+  background-color: unset;
+  color: #ffffff;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: white;
 }
 
 .name-email {
