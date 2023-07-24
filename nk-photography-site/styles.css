@@ -383,7 +383,7 @@ its picture*/
 
 .fill-in {
   margin: 0 auto;
-  width: 25rem;
+  width: 26rem;
   display: flex;
   flex-direction: column;
 }
@@ -394,28 +394,34 @@ textarea {
   color: #ffffff;
 }
 
-input::placeholder,
-textarea::placeholder {
+.get-in-touch-input::placeholder {
   color: white;
 }
 
-.name-email {
-  border: 2px solid #ffffff;
-  padding: 10px;
-  border-radius: 10px;
+.get-in-touch-input {
+  border: none;
+  padding: 10px 0;
   margin-bottom: 10px;
+  border-bottom: 2px solid white;
+}
+
+.get-in-touch-input:focus {
+  outline: none;
+  border-color: #bb86fc;
+}
+.get-in-touch-input:focus::placeholder {
+  color: #bb86fc;
+}
+.textarea::placeholder {
+  color: gray;
+}
+.label {
+  margin-top: 10px;
 }
 
 .msg {
-  border: 2px solid #ffffff;
-  padding: 10px 10px 50px 10px;
-  border-radius: 5px;
   position: relative;
   margin-bottom: 10px;
-}
-
-.submit-btn {
-  width: 150px;
 }
 
 /* follow on instagram */
